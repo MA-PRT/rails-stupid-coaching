@@ -1,0 +1,17 @@
+<h1 class="text-center mb-5 display-4 text-primary">Stupid Coaching</h1>
+
+<div class="container text-center">
+  <div class="p-4 mb-4 border rounded bg-light shadow-sm">
+    <h3 class="mb-2"><%= @question %></h3>
+    <h6 class="text-muted"><em>- You</em></h6>
+  </div>
+
+  <div class="p-4 mb-4 border rounded bg-light shadow-sm">
+    <h3 class="mb-2"><%= @answer %></h3>
+    <h6 class="text-muted"><em>- Coach</em></h6>
+  </div>
+
+  <div>
+    <%= link_to "Ask a new question", ask_path, class: "btn btn-outline-primary" %>
+  </div>
+</div>
